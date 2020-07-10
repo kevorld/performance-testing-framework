@@ -49,9 +49,9 @@
         <hudson.model.BooleanParameterDefinition>
           <name>execute_script</name>
           <description>execute webpagetest script</description>
-          <defaultValue>true</defaultValue>
+          <defaultValue>false</defaultValue>
         </hudson.model.BooleanParameterDefinition>
-        <alex.jenkins.plugins.FileSystemListParameterDefinition plugin="filesystem-list-parameter-plugin@0.0.3">
+        <alex.jenkins.plugins.FileSystemListParameterDefinition plugin="filesystem-list-parameter-plugin@0.0.6">
           <name>script</name>
           <description>Select script to run</description>
           <path>/var/lib/wpt-scripts/</path>
